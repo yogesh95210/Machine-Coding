@@ -1,0 +1,11 @@
+.promise{
+  height: 100vh; /* full screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.promise-container{
+  display: flex;
+  gap: 1rem;
+  
+}
