@@ -1,10 +1,10 @@
 import './App.css'
-import Otp from './Component/Otp'
+import TypeAhead from './Component/TypeAhead'
 function App() {
   return (
     <div >
-    <h1>React OTP</h1>
-      <Otp/>
+    <h1>React Search</h1>
+    <TypeAhead/>
     </div>
   )
 }
