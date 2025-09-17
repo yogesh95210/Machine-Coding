@@ -16,7 +16,6 @@ function TypeAhead() {
         const fetchData= async ()=>{
             try{ 
             setStatus(STATE.LOADING)
-            console.log("Api Calling")
             const response= await fetch(`https://dummyjson.com/products/search?q=${query}&limit=10`)
             {signal}
             const data= await response.json()
@@ -24,7 +23,6 @@ function TypeAhead() {
             setResult(data.products)
         }
             catch(error){
-                console.log(error)
               if(error.name!== "AbortError") {
                 setStatus(STATE.ERROR)
             } 
