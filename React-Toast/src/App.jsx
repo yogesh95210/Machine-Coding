@@ -1,10 +1,9 @@
 import './App.css'
-import TypeAhead from './Component/TypeAhead'
+import Faq from './Component/Faq'
 function App() {
   return (
     <div >
-    <h1>React Search</h1>
-    <TypeAhead/>
+    <Faq/>
     </div>
   )
 }
