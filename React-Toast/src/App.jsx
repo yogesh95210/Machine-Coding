@@ -1,11 +1,9 @@
-import ToastContainer from './Component/ToastContainer'
-import AllPromise from './Promise/AllPromise'
 import './App.css'
+import Counter from './Component/Counter'
 function App() {
   return (
     <div className='appContainer'>
-    <ToastContainer/>
-    <AllPromise/>
+    <Counter/>
     </div>
   )
 }
