@@ -1,9 +1,10 @@
 import './App.css'
-import Faq from './Component/Faq'
+import Post from './Component/Post'
+
 function App() {
   return (
     <div >
-    <Faq/>
+    <Post/>
     </div>
   )
 }

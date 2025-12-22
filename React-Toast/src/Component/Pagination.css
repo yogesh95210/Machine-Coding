@@ -1,0 +1,11 @@
+.pagination-container{
+    display: flex;
+    width: 550px;
+    justify-content: space-evenly;
+}
+.page-btn{
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+}

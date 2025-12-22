@@ -1,0 +1,12 @@
+.post-container{
+    width:550px;
+    height: 170px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+height: 150px;
+width: 100px;
+border-radius: 10px;
+}
